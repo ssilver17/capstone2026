@@ -1,0 +1,20 @@
+html {
+   box-sizing: border-box;
+   margin: 0 auto;
+   --white: #ffffff;
+   --yellow-orange: #eac345;
+   --gray-dark: #444343;
+   --off-black: #1e1d1d;
+   }
+
+   body {
+   margin: 0 auto;
+   background-color: #ffffff;
+   }
+
+   h1 {
+   font-family: 'Typeka', Bold;
+   font-weight: bold;
+   font-size: 3rem;
+   color: var(--off-black);
+   }
