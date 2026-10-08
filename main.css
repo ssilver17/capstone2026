@@ -1,37 +1,64 @@
-html {
-   box-sizing: border-box;
-   margin: 0 auto;
+:root {
    --white: #ffffff;
+   --off-wwhite:#f9f7f4;
    --yellow-orange: #eac345;
    --gray-dark: #444343;
    --off-black: #1e1d1d;
-   }
+}
 
-   body {
-   margin: 0 auto;
-   background-color: #ffffff;
-   }
 
-   h1 {
-      font-family: "superclarendon", serif;
-   font-weight: 700;
+/*main*/
+html {
+   box-sizing: border-box;
+ }
+ 
+ *, *:before, *:after {
+   box-sizing: inherit;
+   margin: 20px 20px
+ }
+
+h1 {
+font-family: "superclarendon", serif;
+   font-weight: 300;
    font-style: normal;
-   }
+   font-size: 35px;
+   padding-left: 20px 20px;
+   margin: 20px 10px 10px 0px;
+   line-height: 1.5rem;
+   color: var(--off-black);
+ }
 
-   h2 {
-      font-family: "superclarendon", serif;
+ h2 {
+   font-family: "superclarendon", serif;
    font-weight: 400;
    font-style: normal;
-   }
+   font-size: 30px;
+   margin: 10px 0px 0px 0px;
+   padding: 20px 20px;
+   color: var(--yellow-orange);
+}
 
-   h3 {
-      font-family: "helvetica-neue-lt-pro", sans-serif;
+h3 {
+   font-family: "helvetica-neue-lt-pro", sans-serif;
    font-weight: 700;
    font-style: normal;
-   }
+}
 
-   p {  
+p {  
    font-family: "helvetica-neue-lt-pro", sans-serif;
    font-weight: 400;
    font-style: normal;
-   }
+   margin: 10px 0px 0px 0px;
+   padding: 20px 20px;
+ }
+
+/*page header*/
+.wordmark {
+   font-family: serif;
+   text-align: left;
+   font-weight: 300;
+   font-size: 2.5 rem;
+   line-height: 3rem;
+   margin-left: 0;
+   padding-left: 0;
+}
