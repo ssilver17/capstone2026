@@ -46,6 +46,7 @@ p {
    font-family: "helvetica-neue-lt-pro", sans-serif;
    font-weight: 400;
    font-style: normal;
+   padding-bottom: 20px;
  }
 
  li {
@@ -63,7 +64,7 @@ nav {
    position: fixed;
    background-color: #1e1d1d;
    border-bottom: 3px solid  #eac345;
-   box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+   /*box-shadow: 3px 3px rgba(233, 197, 80, 0.1);*/
 }
 
 nav ul {
@@ -114,14 +115,18 @@ li a {
 }
 
 /*centered containers*/
-.centered {
-   position: relative;
-   width: 100x;
-   margin: auto;
-   padding-left: 20%;
-   padding-right: 20%;
-   padding-top: 10%;
-   padding-bottom: 2%;
+.centered-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 250px;
+  background-color: aqua;
+}
+
+.card {
+   margin: 10px;
+   background-color: bisque;
+   color: #1e1d1d;
+   padding: 10px 10px;
 }
 
 
