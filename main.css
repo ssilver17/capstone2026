@@ -32,8 +32,6 @@ font-family: "superclarendon", serif;
    font-weight: 400;
    font-style: normal;
    font-size: 30px;
-   margin: 10px 0px 0px 0px;
-   padding: 20px 20px;
    color: var(--yellow-orange);
 }
 
@@ -101,7 +99,16 @@ li a {
    font-size: 30px;
  }
 
-
+/*hero image*/
+.hero-image {
+   background-image: url(images/Postcard_v4.jpg);
+   height: 20%;
+   object-fit: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
 
 
 
