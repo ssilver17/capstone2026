@@ -33,6 +33,7 @@ font-family: "superclarendon", serif;
    font-style: normal;
    font-size: 30px;
    margin-bottom: 2%;
+   padding: 10px 20px;
    color: var(--yellow-orange);
 }
 
@@ -46,7 +47,7 @@ p {
    font-family: "helvetica-neue-lt-pro", sans-serif;
    font-weight: 400;
    font-style: normal;
-   padding-bottom: 20px;
+   padding: 10px 20px;
  }
 
  li {
@@ -125,7 +126,7 @@ li a {
 .centered-container {
   display: flex;
   justify-content: center;
-  padding: 50px 250px;
+  padding: 40px 250px;
   background-color: rgb(227, 232, 232);
 }
 
