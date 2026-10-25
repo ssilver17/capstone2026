@@ -120,6 +120,7 @@ li a {
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
+   padding: 0%;
 }
 
 /*centered containers*/
@@ -127,12 +128,12 @@ li a {
   display: flex;
   justify-content: center;
   padding: 40px 250px;
-  background-color: rgb(227, 232, 232);
+ /* background-color: rgb(227, 232, 232);*/
 }
 
 .card {
    margin: 10px;
-   background-color: rgb(244, 236, 227);
+   /*background-color: rgb(244, 236, 227);*/
    color: #1e1d1d;
    padding: 10px 10px;
 }
