@@ -50,7 +50,7 @@ p {
    font-family: "helvetica-neue-lt-pro", sans-serif;
    font-weight: 400;
    font-style: normal;
-   padding: 5px 20px;
+   padding: 5px 20px 40px 20px;
  }
 
  li {
@@ -93,9 +93,6 @@ ul li {
    padding: 0 10px;
 }
 
-li a {
-   color: #f9f7f4;
-}
 
 li a {
    color: #ffffff;
@@ -140,6 +137,19 @@ li a {
    color: #1e1d1d;
    padding: 10px 10px;
 }
+
+/*bulleted lists*/
+ .bullets li {
+   color: var(--gray-dark);
+   list-style-type: disc;
+   list-style-position: inside;
+   margin: 0px 0px 0px 40px;
+   padding: 0%;
+ 
+}
+
+
+
 
 /*footer*/
 .footer {
