@@ -1,14 +1,15 @@
 :root {
    --white: #ffffff;
-   --off-wwhite:#f9f7f4;
-   --yellow-orange: #dbb741;
+   --off-wwhite:#f4ecc3;
+   --yellow-orange: #f3ca3a;
    --gray-dark: #444343;
    --off-black: #1e1d1d;
+   --pink: #CB2D93;
 }
 
 
 /*main*/
-html {
+*, *::before, *::after {
    box-sizing: border-box;
  }
  
@@ -39,10 +40,10 @@ font-family: "superclarendon", serif;
 
 h3 {
    font-family: "helvetica-neue-lt-pro", sans-serif;
-   font-weight: 500;
+   font-weight: 600;
    font-style: normal;
-   font-size: 25px;
-   color: var(--yellow-orange);
+   font-size: 20px;
+   color: var(--pink);
    padding: 10px 20px 0px 20px;
 }
 
@@ -51,6 +52,11 @@ p {
    font-weight: 400;
    font-style: normal;
    padding: 5px 20px 40px 20px;
+ }
+
+ .caption {
+   font-size: 10px;
+   text-align: right;
  }
 
  li {
@@ -74,7 +80,6 @@ nav {
    height: 3rem;
    position: fixed;
    background-color: #1e1d1d;
-   border-bottom: 3px solid  #eac345;
    /*box-shadow: 3px 3px rgba(233, 197, 80, 0.1);*/
 }
 
@@ -103,6 +108,8 @@ li a {
    color: #eac345;
  }
 
+
+
  nav ul li:first-child {
    margin-right: auto;
    font-family: "superclarendon", serif;
@@ -124,12 +131,18 @@ li a {
 }
 
 /*centered containers*/
-.centered-container {
-  display: flex;
+.centered-container-white {
+  display: block;
   justify-content: center;
   padding: 40px 250px;
- /* background-color: rgb(227, 232, 232);*/
 }
+
+.centered-container-cream {
+   display: block;
+   justify-content: center;
+   padding: 40px 250px;
+   background-color: rgba(244, 236, 195, .4);
+ }
 
 .card {
    margin: 10px;
