@@ -22,7 +22,7 @@ font-family: "superclarendon", serif;
    font-weight: 300;
    font-style: normal;
    font-size: 42px;
-   line-height: 1.5rem;
+   line-height: 1.25;
    color: var(--off-black);
  }
 
@@ -141,7 +141,7 @@ li a {
    display: block;
    justify-content: center;
    text-align: center;
-   padding: 40px 250px;
+   padding: 40px 50px;
    background-color: rgba(243, 203, 58, 0.909);
  }
 
